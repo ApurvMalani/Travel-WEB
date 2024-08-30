@@ -1,0 +1,49 @@
+.herotext h1 {
+	font-size: 4rem;
+}
+
+.herotext p {
+	font-size: 2rem;
+}
+
+.herotext a {
+	font-size: 1.5rem;
+}
+
+/* Media query for tablets and small desktops */
+@media (max-width: 1024px) {
+	.herotext h1 {
+		font-size: 3rem;
+		/* Decrease size for medium screens */
+	}
+
+	.herotext p {
+		font-size: 1.5rem;
+		/* Decrease size for medium screens */
+	}
+
+	.herotext a {
+		font-size: 1.2rem;
+		/* Decrease size for medium screens */
+	}
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+	.herotext h1 {
+		font-size: 2.5rem;
+		/* Further decrease size for small screens */
+	}
+
+	.herotext p {
+		font-size: 1.2rem;
+		/* Further decrease size for small screens */
+	}
+
+	.herotext a {
+		font-size: 1rem;
+		/* Further decrease size for small screens */
+		padding: 0.4rem 0.8rem;
+		/* Adjust padding for smaller devices */
+	}
+}
